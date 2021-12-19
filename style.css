@@ -1,0 +1,46 @@
+element{
+    --bodyfont: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    padding-top:100px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: auto;
+
+    background: rgba(236, 97, 16, 0.575);
+    text-align: left;
+    color:rgb(77, 31, 15);
+}
+
+h1{
+
+    font-family: optima, sans-serif;
+    font-size: 50px;
+    font-weight: strong;
+}
+
+header nav{
+    text-align: right;
+    font-size: 25px;
+    display: inline;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-family: var(--bodyfont);
+}
+
+#sidebar {
+    height: 100%;
+    width: 20%;
+    padding: 40px;
+    background: rgba(57, 95, 18, 0.863);
+    border: solid black 10px;
+}
