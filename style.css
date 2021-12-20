@@ -60,19 +60,21 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px;
     background: rgba(224, 188, 108);
     gap: 1rem;
 }
 
 .box-1 {
+    padding: 10px;
+    background: rgb(133, 111, 65);
     flex-basis: 100%;
 }
 
 .box-1 img {
+    object-fit: contain;
     width: 100%;
-    height: auto;
 }
 
 .box {
@@ -81,3 +83,22 @@ body{
     flex-basis: 47%;
 }
 
+#t2 img {
+    object-fit: contain;
+    width: 100%;
+}
+
+#t3 img {
+    object-fit: contain;
+    width: 100%;
+}
+
+#t4 img {
+    object-fit: contain;
+    width: 100%;
+}
+
+#t5 img {
+    object-fit: contain;
+    width: 100%;
+}
