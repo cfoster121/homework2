@@ -5,13 +5,10 @@ element{
 
 header {
     padding-top:100px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: auto;
-
-    background: rgba(236, 97, 16, 0.575);
+    width: 100%;
+    background: #e2725b;
     text-align: left;
-    color:rgb(77, 31, 15);
+    color:#fcdfce;
 }
 
 h1{
@@ -43,4 +40,31 @@ header nav ul li{
     padding: 40px;
     background: rgba(57, 95, 18, 0.863);
     border: solid black 10px;
+}
+
+body{
+    background:#374711b2;
+    font-family: var(--bodyfont);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(224, 188, 108);
+    gap: 1rem;
+}
+
+.box-1 {
+    padding: 10px;
+    background: rgb(133, 111, 65);
+    width: 97%
+}
+
+.box {
+    padding: 10px;
+    background: rgb(133, 111, 65);
+    width: 47%;
 }
