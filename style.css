@@ -18,6 +18,9 @@ h1{
     font-size: 50px;
     font-weight: strong;
     text-shadow: -1px 0 rgb(71, 12, 12), 0 1px rgb(71, 12, 12), 1px 0 rgb(71, 12, 12), 0 -1px rgb(71, 12, 12);
+    top: 80px;
+    position: relative;
+    width: 30%;
 }
 
 header nav{
