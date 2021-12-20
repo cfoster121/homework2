@@ -5,8 +5,9 @@ element{
 
 header {
     padding-top:100px;
+    padding-left: 20px;
     width: 100%;
-    background: #e2725b;
+    background: #84342e;
     text-align: left;
     color:#fcdfce;
 }
@@ -16,16 +17,24 @@ h1{
     font-family: optima, sans-serif;
     font-size: 50px;
     font-weight: strong;
+    text-shadow: -1px 0 rgb(71, 12, 12), 0 1px rgb(71, 12, 12), 1px 0 rgb(71, 12, 12), 0 -1px rgb(71, 12, 12);
 }
 
 header nav{
     text-align: right;
     font-size: 25px;
     display: inline;
+    text-shadow: -1px 0 rgb(71, 12, 12), 0 1px rgb(71, 12, 12), 1px 0 rgb(71, 12, 12), 0 -1px rgb(71, 12, 12);
+    color:#fcdfce;
+}
+
+a{
+    color:#fcdfce;
 }
 
 header nav ul{
     list-style: none;
+    padding-right: 10px;
 }
 
 header nav ul li{
@@ -51,7 +60,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px;
     background: rgba(224, 188, 108);
     gap: 1rem;
@@ -59,12 +68,13 @@ body{
 
 .box-1 {
     padding: 10px;
-    background: rgb(133, 111, 65);
-    width: 97%
+    flex-basis: 100%;
+    height: 20px;
 }
 
 .box {
     padding: 10px;
     background: rgb(133, 111, 65);
-    width: 47%;
+    flex-basis: 47%;
 }
+
