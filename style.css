@@ -2,14 +2,11 @@ element{
     --bodyfont: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-    h1{
-        font-size: 25px;
-    }
-    header nav{
-        font-size: 16px;
-    }
-  }
+body{
+    background:#374711b2;
+    font-family: var(--bodyfont);
+}
+
 
 header {
     padding-top:100px;
@@ -60,10 +57,7 @@ header nav ul li{
     font-family: var(--bodyfont);
 }
 
-body{
-    background:#374711b2;
-    font-family: var(--bodyfont);
-}
+
 
 .about{
     display: flex;
