@@ -2,6 +2,14 @@ element{
     --bodyfont: Arial, Helvetica, sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 25px;
+    }
+    header nav{
+        font-size: 16px;
+    }
+  }
 
 header {
     padding-top:100px;
@@ -36,6 +44,11 @@ a{
     text-decoration: none;
 }
 
+#contactbox a{
+    color: black;
+}
+
+
 header nav ul{
     list-style: none;
     padding-right: 10px;
@@ -47,17 +60,15 @@ header nav ul li{
     font-family: var(--bodyfont);
 }
 
-#sidebar {
-    height: 100%;
-    width: 20%;
-    padding: 40px;
-    background: rgba(57, 95, 18, 0.863);
-    border: solid black 10px;
-}
-
 body{
     background:#374711b2;
     font-family: var(--bodyfont);
+}
+
+.about{
+    display: flex;
+    padding: 40px;
+    background: rgba(224, 188, 108);
 }
 
 .container {
@@ -80,7 +91,6 @@ body{
     text-align: center;
     border-radius: 25px;
     width: 20%;
-    z-index: 1;
 }
 
 .box-1 {
@@ -92,35 +102,49 @@ body{
 .box-1 img {
     object-fit: contain;
     width: 100%;
-    z-index: 3;
 }
 
 .box {
     padding: 10px;
     background: rgb(133, 111, 65);
     flex-basis: 47%;
+    position: relative;
+}
+
+.box h4 {
+    position: absolute;
+    top: 40%;
+    font-size: 40px;
+    left: 32%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 img:hover {
     cursor: grab;
 }
 
-#t2 img {
-    object-fit: contain;
+.box img {
+    height: 90%;
     width: 100%;
+    position: relative;
 }
 
-#t3 img {
-    object-fit: contain;
-    width: 100%;
+.contact {
+    text-align: center;
+    font-family: (--bodyfont);
+    font-size: 35px;
+
+    border: 1px solid white;
+    position: relative;
+    margin: 0 auto;
+    bottom: 10px;
+    background: white;
+    padding: 5px;
+    border-radius: 25px;
+    width: 20%;
 }
 
-#t4 img {
-    object-fit: contain;
-    width: 100%;
-}
-
-#t5 img {
-    object-fit: contain;
-    width: 100%;
+#contactbox{
+    text-align: center;
+    font-size: 25px;
 }
