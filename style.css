@@ -23,12 +23,12 @@ header {
 h1{
 
     font-family: optima, sans-serif;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: strong;
     text-shadow: -1px 0 rgb(71, 12, 12), 0 1px rgb(71, 12, 12), 1px 0 rgb(71, 12, 12), 0 -1px rgb(71, 12, 12);
     top: 80px;
     position: relative;
-    width: 30%;
+    width: 40%;
 }
 
 header nav{
@@ -93,14 +93,54 @@ body{
     width: 20%;
 }
 
+#abme {
+    left: 30px;
+    bottom: 50px;
+    width: 70%;
+    height: 10%;
+}
+
+#worklabel {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#ax {
+    width: 30%;
+}
+
+#left {
+    text-align: justify;
+    max-width: 40%;
+    align-content: left;
+    margin-top: 10%;
+    font-family: var(--bodyfont);
+    font-size: 20px;
+}
+
+p img{
+    max-width: 70%;
+    max-height: auto;
+    margin-left: 30%;
+}
+
 .box-1 {
     padding: 10px;
     background: rgb(133, 111, 65);
     width: 100%;
 }
 
+.title {
+    padding: 10px;
+    background: rgb(133, 111, 65);
+    width: 100%;
+    position: relative;
+}
+
 .box-1 img {
-    object-fit: contain;
     width: 100%;
 }
 
@@ -114,10 +154,11 @@ body{
 .box h4 {
     position: absolute;
     top: 40%;
-    font-size: 40px;
+    font-size: 50px;
     left: 32%;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 
 img:hover {
     cursor: grab;
