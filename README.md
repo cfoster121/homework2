@@ -1,56 +1,28 @@
-# Project Title
+# Portfolio
 
-One paragraph of project description goes here.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development environment running.
-
-Say what the step will be:
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
+Create a portfolio that displays information about me, work samples, contact information, and a resumé to present to potential employers.
 
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://cfoster121.github.io/homework2/)
 
+## Essential Code
 
-## Authors
+*![GIF1](images/HW2-1.gif)
+*![GIF2](images/HW2-2.gif)
 
-* **YOUR NAME** 
+## Author
 
-- [Link to Portfolio Site](#)
-- [Link to Github](https://github.com/)
-- [Link to LinkedIn](https://www.linkedin.com/)
+* **Courtney Foster** 
+
+- [Link to Portfolio Site](https://cfoster121.github.io/homework2/)
+- [Link to Github](https://github.com/cfoster121)
+- [Link to LinkedIn](https://www.linkedin.com/in/courtney-foster-0b364575/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -60,6 +32,10 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
-* etc
+* [W3 Schools](https://www.w3schools.com/)
+* [MDN Web Docs](https://developer.mozilla.org/en-US/)
+* [Gif Application](https://gifox.io/)
+* [Markdown Preview](https://dillinger.io/)
+* [Royalty Free Photos](https://unsplash.com/)
+* [Image Gallery For Icon](https://www.pngall.com/c-letter-png)
+* Slack study groups
