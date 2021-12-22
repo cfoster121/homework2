@@ -14,7 +14,9 @@ Create a portfolio that displays information about me, work samples, contact inf
 ## Essential Code
 
 *![GIF1](images/HW2-1.gif)
-*![GIF2](images/HW2-2.gif)
+*![GIF2](images/HW2-3.gif)
+*![GIF3](images/HW2-4.gif)
+*![GIF4](images/HW2-5.gif)
 
 ## Author
 
@@ -26,9 +28,6 @@ Create a portfolio that displays information about me, work samples, contact inf
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
-This project is licensed under the MIT License 
 
 ## Acknowledgments
 
